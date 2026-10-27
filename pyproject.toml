@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlds-reinforcement-learning"
+version = "1.0.0"
+description = "Assignment 1: dynamic programming and policy gradients"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "matplotlib>=3.8",
+  "torch>=2.2",
+  "gymnasium[classic-control]>=1.0",
+  "reportlab>=4.0",
+]
+
+[project.optional-dependencies]
+atari = ["gymnasium[atari]>=1.0", "ale-py>=0.10"]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+mlds-rl = "mlds_rl.cli:main"
+mlds-rl-report = "mlds_rl.report:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
+
