@@ -1,0 +1,12 @@
+{
+  "baseline": true,
+  "env_id": "Pong-v5",
+  "evaluation_episodes": 20,
+  "evaluation_mean": -12.25,
+  "evaluation_std": 1.6393596310755,
+  "last_100_training_mean": -9.4,
+  "max_steps": 500,
+  "seed": 43,
+  "status": "smoke",
+  "training_episodes": 5
+}

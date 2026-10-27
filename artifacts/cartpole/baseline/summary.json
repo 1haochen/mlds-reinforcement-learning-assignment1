@@ -1,0 +1,12 @@
+{
+  "baseline": true,
+  "env_id": "CartPole-v1",
+  "evaluation_episodes": 500,
+  "evaluation_mean": 500.0,
+  "evaluation_std": 0.0,
+  "last_100_training_mean": 426.37,
+  "max_steps": null,
+  "seed": 43,
+  "status": "full",
+  "training_episodes": 500
+}

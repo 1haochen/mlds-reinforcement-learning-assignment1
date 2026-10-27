@@ -1,0 +1,18 @@
+{
+  "assumptions": {
+    "arrival_distribution": "uniform over 1,2,3,4,5",
+    "event_order": "dispatch, arrivals, capped next state, then holding cost",
+    "terminal_cost": 0
+  },
+  "bellman_residual": 9.049472282640636e-11,
+  "deterministic_arrival_threshold": 13,
+  "finite_t0_threshold": 13,
+  "finite_vi_policy_agreement": 1.0,
+  "max_vi_pi_value_difference": 1.7867023416329175e-09,
+  "policy_iteration_iterations": 6,
+  "policy_iteration_threshold": 13,
+  "transition_row_sum_max_error": 0.0,
+  "value_iteration_iterations": 523,
+  "value_iteration_threshold": 13,
+  "vi_pi_policy_agreement": 1.0
+}

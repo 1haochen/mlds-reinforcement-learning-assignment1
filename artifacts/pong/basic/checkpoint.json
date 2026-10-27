@@ -1,0 +1,11 @@
+{
+  "env_id": "Pong-v5",
+  "episodes": 5,
+  "gamma": 0.99,
+  "learning_rate": 0.001,
+  "baseline": false,
+  "seed": 42,
+  "hidden_dim": 200,
+  "max_steps": 500,
+  "baseline_learning_rate": 0.001
+}
